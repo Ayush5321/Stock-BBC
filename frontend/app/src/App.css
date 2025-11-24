@@ -1,0 +1,68 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.underline-highlight::before {
+    content: "";
+    position: absolute;
+    bottom: 0.15em;
+    left: 0;
+    width: 100%;
+    height: 0.4em;
+    background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+    opacity: 0.4;
+    z-index: -1;
+    border-radius: 0.1em;
+}
+.underline-highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-highlight::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0.15em;
+    width: 100%;
+    height: 0.5em;
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 15 C20 25, 80 0, 98 15" stroke="%233B82F6" stroke-width="4" fill="none" stroke-linecap="round"/></svg>')
+        no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}

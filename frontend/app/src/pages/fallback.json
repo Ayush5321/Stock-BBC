@@ -1,0 +1,103 @@
+{
+  "fundDetails": {
+    "schemeCode": "146196",
+    "schemeName": "Motilal Oswal Large Cap Fund – Direct Growth (Sample)",
+    "amcName": "Motilal Oswal Mutual Fund",
+    "assetCategory": "Equity",
+    "assetSubCategory": "Large Cap Fund",
+    "riskometer": "Very High Risk",
+    "nav": 14.01,
+    "navChange": 0.18,
+    "navChangePercent": 1.27,
+    "navDate": "2023-10-26",
+    "fundSize": 3500.5,
+    "inceptionDate": "2018-05-28",
+    "fundManager": "Mr. Aditya Khemani",
+    "benchmark": "NIFTY 100 Total Return Index",
+    "expenseRatio": 0.79,
+    "exitLoad": "1% for redemption within 1 year"
+  },
+  "scorecardData": [
+    {
+      "title": "Performance",
+      "status": "Avg",
+      "color": "bg-yellow-100 text-yellow-700",
+      "desc": "Return has been average, nothing exciting vs others."
+    },
+    {
+      "title": "Risk",
+      "status": "Avg",
+      "color": "bg-yellow-100 text-yellow-700",
+      "desc": "Average risk vs others in sub-category."
+    },
+    {
+      "title": "Cost",
+      "status": "High",
+      "color": "bg-red-100 text-red-600",
+      "desc": "Higher costs on pocket vs others."
+    },
+    {
+      "title": "Composition",
+      "status": "High",
+      "color": "bg-green-100 text-green-600",
+      "desc": "A well thought mix versus other funds."
+    },
+    {
+      "title": "Red Flags",
+      "status": "Low",
+      "color": "bg-blue-100 text-blue-600",
+      "desc": "We got you covered, no major red flags identified."
+    }
+  ],
+
+  "performance": {
+    "trailingReturns": [
+      { "period": "1Y", "fund": 15.2, "category": 14.1, "benchmark": 14.8 },
+      { "period": "3Y", "fund": 18.9, "category": 17.5, "benchmark": 18.2 },
+      { "period": "5Y", "fund": 14.5, "category": 13.8, "benchmark": 14.1 }
+    ],
+    "riskRatios": [
+      { "metric": "Sharpe Ratio", "fund": 1.09, "categoryAvg": 0.95 },
+      { "metric": "Beta", "fund": 0.98, "categoryAvg": 1.01 },
+      { "metric": "Jensen's Alpha", "fund": 2.1, "categoryAvg": 1.5 },
+      { "metric": "Std. Deviation", "fund": 16.5, "categoryAvg": 17.2 }
+    ]
+  },
+  "portfolio": {
+    "topHoldings": [
+      {
+        "security": "HDFC Bank Ltd.",
+        "sector": "Financial Services",
+        "holding": 8.5
+      },
+      {
+        "security": "Reliance Industries Ltd.",
+        "sector": "Energy",
+        "holding": 7.9
+      },
+      {
+        "security": "ICICI Bank Ltd.",
+        "sector": "Financial Services",
+        "holding": 7.2
+      },
+      {
+        "security": "Infosys Ltd.",
+        "sector": "Information Technology",
+        "holding": 6.8
+      },
+      {
+        "security": "Tata Consultancy Services Ltd.",
+        "sector": "Information Technology",
+        "holding": 5.5
+      }
+    ],
+    "sectorAllocation": [
+      { "sector": "Financial Services", "value": 32.5 },
+      { "sector": "Information Technology", "value": 18.2 },
+      { "sector": "Energy", "value": 12.8 },
+      { "sector": "Consumer Goods", "value": 9.5 },
+      { "sector": "Healthcare", "value": 7.1 },
+      { "sector": "Others", "value": 19.9 }
+    ]
+  }
+}
